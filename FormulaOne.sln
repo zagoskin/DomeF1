@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.Api", "FormulaOne.Api\FormulaOne.Api.csproj", "{E034389B-DE2A-4D35-B1F0-D939C336BB13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.Entities", "FormulaOne.Entities\FormulaOne.Entities.csproj", "{377F3248-D4FF-4DBD-B341-39B3FF5DB105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaOne.DataService", "FormulaOne.DataService\FormulaOne.DataService.csproj", "{778D43A8-FA19-466E-AB4A-CE46B01E3520}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F93FC201-54A2-4263-87FB-99AB13A18A68}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{6BC4CB85-F22C-4502-B705-88321380DECB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{B11F9E29-9896-4F7B-A43B-0FDB05D137E9}"
+	ProjectSection(SolutionItems) = preProject
+		deploy-api.yaml = deploy-api.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iac", "iac", "{AF81EE9E-1E1E-4F86-BE1F-CACF9C6EFD5D}"
+	ProjectSection(SolutionItems) = preProject
+		iac\acr.tf = iac\acr.tf
+		iac\azure-container-app-env.tf = iac\azure-container-app-env.tf
+		iac\azure-container-apps.tf = iac\azure-container-apps.tf
+		iac\azure-law.tf = iac\azure-law.tf
+		iac\azure-sql-db.tf = iac\azure-sql-db.tf
+		iac\resource-group.tf = iac\resource-group.tf
+		iac\setup.tf = iac\setup.tf
+		iac\vars.tf = iac\vars.tf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E034389B-DE2A-4D35-B1F0-D939C336BB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E034389B-DE2A-4D35-B1F0-D939C336BB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E034389B-DE2A-4D35-B1F0-D939C336BB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E034389B-DE2A-4D35-B1F0-D939C336BB13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377F3248-D4FF-4DBD-B341-39B3FF5DB105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377F3248-D4FF-4DBD-B341-39B3FF5DB105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377F3248-D4FF-4DBD-B341-39B3FF5DB105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377F3248-D4FF-4DBD-B341-39B3FF5DB105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778D43A8-FA19-466E-AB4A-CE46B01E3520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778D43A8-FA19-466E-AB4A-CE46B01E3520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778D43A8-FA19-466E-AB4A-CE46B01E3520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778D43A8-FA19-466E-AB4A-CE46B01E3520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BC4CB85-F22C-4502-B705-88321380DECB} = {F93FC201-54A2-4263-87FB-99AB13A18A68}
+		{B11F9E29-9896-4F7B-A43B-0FDB05D137E9} = {6BC4CB85-F22C-4502-B705-88321380DECB}
+		{AF81EE9E-1E1E-4F86-BE1F-CACF9C6EFD5D} = {F93FC201-54A2-4263-87FB-99AB13A18A68}
+	EndGlobalSection
+EndGlobal
